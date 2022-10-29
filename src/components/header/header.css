@@ -1,0 +1,42 @@
+.header {
+    margin-top: 64px;
+    margin-bottom: 56px;
+    width: 1152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profile_image{
+    height: 88px;
+    width: 88px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.main_img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.profile__text {
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#slack {
+    display: none;
+}

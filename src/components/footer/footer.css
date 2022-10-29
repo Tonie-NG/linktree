@@ -1,0 +1,28 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 56px;
+    padding-top: 30px;
+    margin-top: 40px;
+    border-top: 1px solid #c2c6ce;
+    width: 85%;
+}
+
+.footer >span {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #667085;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        display: none;
+    }
+}
